@@ -7,5 +7,5 @@
 
 ## Challenge Overview
 
-$ Challenge Summary
+## Challenge Summary
 
