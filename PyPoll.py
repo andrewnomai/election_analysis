@@ -87,7 +87,7 @@ with open(file_to_load) as election_data:
 
 # Determine the percentage of votes for each candidate by looping through the counts.
 
-# 1. Iterate through the candidate list.
+# 1. Iterate th}rough the candidate list.
 
 for candidate_name in candidate_votes:
 
@@ -100,9 +100,8 @@ for candidate_name in candidate_votes:
     vote_percentage = float(votes) / float(total_votes) * 100
 
 
-
-# To do: print out each candidate's name, vote count, and percentage of # votes to the terminal.
-print(f'{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n')
+    # To do: print out each candidate's name, vote count, and percentage of # votes to the terminal.
+    print(f'{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n')
 
 
     # Determine winning vote count and candidate 
@@ -119,3 +118,20 @@ print(f'{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n')
         # And, set the winning_candidate equal to the candidate's name.
 
         winning_candidate = candidate_name
+
+# Print winning candidate summary
+
+winning_candidate_summary = (
+
+    f"----------------------------\n"
+
+    f"Winner: {winning_candidate}\n"
+
+    f"Winning Vote Count: {winning_count}\n"
+
+    f"Winning Percentage: {winning_percentage}\n"
+
+    f"-----------------------------\n")
+
+
+print(winning_candidate_summary)
