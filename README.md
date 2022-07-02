@@ -39,8 +39,8 @@ The analysis of the election show that:
    - **Diana DeGette**, who received **73.8%** of the vote and **272,892** number of votes. 
 
 
-###### County Turnout
-- The voter turnout for each county was:
+###### County Results
+- The results for each county were:
   - Jefferson had **10.5%** of the total votes with **38,855** voters. 
   - Denver had **82.8%** of the total votes with **305,055** voters.
   - Arapahoe had **6.7%** of the total votes with **24,801** voters.
