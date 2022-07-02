@@ -129,38 +129,37 @@ with open(file_to_load) as election_data:
         # Determine winning vote count and candidate 
         # Determine if the votes is greater than the winning count.
         
-        if (votes > winning_count) and (vote_percentage > winning_percentage):
+            if (votes > winning_count) and (vote_percentage > winning_percentage):
 
             # If true then set winning_count = votes and winning_percentage =
             # votes_percentage. 
 
-            winning_count = votes
-            winning_percentage = vote_percentage
+                winning_count = votes
+                winning_percentage = vote_percentage
 
             # And, set the winning_candidate equal to the candidate's name.
 
-            winning_candidate = candidate_name
+                winning_candidate = candidate_name
 
 
+# Print winning candidate summary
 
-    # Print winning candidate summary
+        winning_candidate_summary = (
 
-            winning_candidate_summary = (
+            f"----------------------------\n"
 
-                f"----------------------------\n"
+            f"Winner: {winning_candidate}\n"
 
-                f"Winner: {winning_candidate}\n"
+            f"Winning Vote Count: {winning_count}\n"
 
-                f"Winning Vote Count: {winning_count}\n"
+            f"Winning Percentage: {winning_percentage}\n"
 
-                f"Winning Percentage: {winning_percentage}\n"
-
-                f"-----------------------------\n")
+            f"-----------------------------\n")
 
 
-            print(winning_candidate_summary)
+        print(winning_candidate_summary)
 
     # Save the winning candidate's results to the text file.
 
-            txt_file.write(winning_candidate_summary)
+        txt_file.write(winning_candidate_summary)
 
