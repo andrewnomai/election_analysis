@@ -18,22 +18,40 @@ Software: Python 3.10.5, Visual Studio Code, 1.68
 ## Summary
 The analysis of the election show that:
 
+###### Total Votes
 - There were 369,711 votes cast in the election.
+
+###### Candidate List
 - The candidates were:
   - Charles Casper Stockham
   - Diana DeGette
   - Raymon Anthony Doane
 
+###### Candidate Results
 - The candidate results were: 
-  - Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
-  - Diana DeGette received 73.8% of the vote and 272,892 number of votes.
-  - Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
+  - Charles Casper Stockham received 23.0% of the total votes with 85,213 votes.
+  - Diana DeGette received 73.8% of the total votes with 272,892 votes.
+  - Raymon Anthony Doane received 3.1% of total votes with 11,606 votes.
 
+
+###### Election Winner
 - The winner of the election was:
-   - Candidate, who received "x%" of the vote and "y" number of votes. 
+   - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes. 
 
 
-## Challenge Overview
+###### County Turnout
+- The voter turnout for each county was:
+  - Jefferson had 10.5% of the total votes with 38,855 voters. 
+  - Denver had 82.8% of the total votes with 305,055 voters.
+  - Arapahoe had 6.7% of the total votes with 24,801 voters.
 
-## Challenge Summary
+###### Largest County Turnout
+- The largest county voter turnout was:
+  - Denver had 82.8% of the total votes with 305,055 voters. 
+  
+  ![Election Results](https://user-images.githubusercontent.com/107603065/176981631-8d08d6fe-3e1a-4c20-aeb9-32eba668ce28.png)
+
+  
+
+
 
