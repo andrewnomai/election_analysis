@@ -15,7 +15,7 @@ Data Source: election_results.csv
 Software: Python 3.10.5, Visual Studio Code, 1.68
 
 
-## Summary
+## Election Results
 The analysis of the election show that:
 
 ###### Total Votes
